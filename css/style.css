@@ -188,57 +188,64 @@ h3 {
 }
 
 .particle:nth-child(1) {
-    width: 4px;
-    height: 4px;
-    background: rgba(51, 152, 152, 0.6);
-    top: 20%;
-    left: 10%;
-    animation: float1 15s infinite linear;
+    width: 15px;
+    height: 15px;
+    background: rgba(232, 153, 35, 1);
+    top: 50%;
+    left: 50%;
+    animation: float1 5s infinite linear;
+    box-shadow: 0 0 8px rgba(232, 153, 35, 0.6);
+    z-index: 10;
 }
 
 .particle:nth-child(2) {
-    width: 3px;
-    height: 3px;
-    background: rgba(232, 153, 35, 0.5);
+    width: 6px;
+    height: 6px;
+    background: rgba(232, 153, 35, 0.8);
     top: 40%;
     left: 20%;
     animation: float2 18s infinite linear;
+    box-shadow: 0 0 4px rgba(232, 153, 35, 0.4);
 }
 
 .particle:nth-child(3) {
-    width: 2px;
-    height: 2px;
-    background: rgba(0, 83, 155, 0.7);
+    width: 5px;
+    height: 5px;
+    background: rgba(0, 83, 155, 0.8);
     top: 60%;
     left: 15%;
     animation: float3 20s infinite linear;
+    box-shadow: 0 0 3px rgba(0, 83, 155, 0.4);
 }
 
 .particle:nth-child(4) {
-    width: 5px;
-    height: 5px;
-    background: rgba(51, 152, 152, 0.4);
+    width: 7px;
+    height: 7px;
+    background: rgba(51, 152, 152, 0.7);
     top: 30%;
     left: 70%;
     animation: float4 16s infinite linear;
+    box-shadow: 0 0 4px rgba(51, 152, 152, 0.3);
 }
 
 .particle:nth-child(5) {
-    width: 3px;
-    height: 3px;
-    background: rgba(232, 153, 35, 0.6);
+    width: 6px;
+    height: 6px;
+    background: rgba(232, 153, 35, 0.8);
     top: 70%;
     left: 60%;
     animation: float5 22s infinite linear;
+    box-shadow: 0 0 3px rgba(232, 153, 35, 0.4);
 }
 
 .particle:nth-child(6) {
-    width: 2px;
-    height: 2px;
-    background: rgba(0, 83, 155, 0.5);
+    width: 5px;
+    height: 5px;
+    background: rgba(0, 83, 155, 0.7);
     top: 80%;
     left: 80%;
     animation: float6 14s infinite linear;
+    box-shadow: 0 0 3px rgba(0, 83, 155, 0.3);
 }
 
 .particle:nth-child(7) {
