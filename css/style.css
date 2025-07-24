@@ -80,7 +80,7 @@ h3 {
 .nav-logo {
     display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: 2rem;
 }
 
 .nav-logo a {
