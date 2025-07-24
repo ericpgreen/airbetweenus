@@ -844,6 +844,25 @@ footer {
     box-shadow: var(--air-shadow);
 }
 
+/* Local video container */
+.video-intro {
+    background-color: var(--white);
+    padding: 3rem 0;
+}
+
+.local-video-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.local-video-container video {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: var(--air-shadow);
+}
+
 .video-container iframe {
     position: absolute;
     top: 0;
