@@ -1,8 +1,8 @@
 # GitHub Pages Configuration
 title: The Air Between Us
 description: Illness and Inequality in a Connected World - A Century Course in Global Health at Duke University
-url: https://ericpgreen.github.io
-baseurl: /airbetweenus
+url: https://airbetween.us
+baseurl: ""
 
 # Build settings
 theme: null
