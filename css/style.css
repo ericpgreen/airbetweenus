@@ -188,118 +188,123 @@ h3 {
 }
 
 .particle:nth-child(1) {
-    width: 15px;
-    height: 15px;
-    background: rgba(232, 153, 35, 1);
-    top: 50%;
-    left: 50%;
-    animation: float1 5s infinite linear;
-    box-shadow: 0 0 8px rgba(232, 153, 35, 0.6);
-    z-index: 10;
+    width: 8px;
+    height: 8px;
+    background: rgba(51, 152, 152, 0.9);
+    top: 20%;
+    left: 10%;
+    animation: float1 15s infinite linear;
+    box-shadow: 0 0 4px rgba(51, 152, 152, 0.5);
 }
 
 .particle:nth-child(2) {
-    width: 6px;
-    height: 6px;
-    background: rgba(232, 153, 35, 0.8);
+    width: 7px;
+    height: 7px;
+    background: rgba(232, 153, 35, 0.9);
     top: 40%;
     left: 20%;
     animation: float2 18s infinite linear;
-    box-shadow: 0 0 4px rgba(232, 153, 35, 0.4);
+    box-shadow: 0 0 4px rgba(232, 153, 35, 0.5);
 }
 
 .particle:nth-child(3) {
-    width: 5px;
-    height: 5px;
-    background: rgba(0, 83, 155, 0.8);
+    width: 6px;
+    height: 6px;
+    background: rgba(0, 83, 155, 0.9);
     top: 60%;
     left: 15%;
     animation: float3 20s infinite linear;
-    box-shadow: 0 0 3px rgba(0, 83, 155, 0.4);
+    box-shadow: 0 0 3px rgba(0, 83, 155, 0.5);
 }
 
 .particle:nth-child(4) {
-    width: 7px;
-    height: 7px;
-    background: rgba(51, 152, 152, 0.7);
+    width: 8px;
+    height: 8px;
+    background: rgba(51, 152, 152, 0.8);
     top: 30%;
     left: 70%;
     animation: float4 16s infinite linear;
-    box-shadow: 0 0 4px rgba(51, 152, 152, 0.3);
+    box-shadow: 0 0 4px rgba(51, 152, 152, 0.4);
 }
 
 .particle:nth-child(5) {
-    width: 6px;
-    height: 6px;
-    background: rgba(232, 153, 35, 0.8);
+    width: 7px;
+    height: 7px;
+    background: rgba(232, 153, 35, 0.9);
     top: 70%;
     left: 60%;
     animation: float5 22s infinite linear;
-    box-shadow: 0 0 3px rgba(232, 153, 35, 0.4);
+    box-shadow: 0 0 3px rgba(232, 153, 35, 0.5);
 }
 
 .particle:nth-child(6) {
-    width: 5px;
-    height: 5px;
-    background: rgba(0, 83, 155, 0.7);
+    width: 6px;
+    height: 6px;
+    background: rgba(0, 83, 155, 0.8);
     top: 80%;
     left: 80%;
     animation: float6 14s infinite linear;
-    box-shadow: 0 0 3px rgba(0, 83, 155, 0.3);
+    box-shadow: 0 0 3px rgba(0, 83, 155, 0.4);
 }
 
 .particle:nth-child(7) {
-    width: 4px;
-    height: 4px;
-    background: rgba(51, 152, 152, 0.5);
+    width: 7px;
+    height: 7px;
+    background: rgba(51, 152, 152, 0.8);
     top: 10%;
     left: 50%;
     animation: float7 19s infinite linear;
+    box-shadow: 0 0 3px rgba(51, 152, 152, 0.4);
 }
 
 .particle:nth-child(8) {
-    width: 3px;
-    height: 3px;
-    background: rgba(232, 153, 35, 0.4);
+    width: 6px;
+    height: 6px;
+    background: rgba(232, 153, 35, 0.8);
     top: 50%;
     left: 85%;
     animation: float8 17s infinite linear;
+    box-shadow: 0 0 3px rgba(232, 153, 35, 0.4);
 }
 
 .particle:nth-child(9) {
-    width: 2px;
-    height: 2px;
-    background: rgba(0, 83, 155, 0.6);
+    width: 5px;
+    height: 5px;
+    background: rgba(0, 83, 155, 0.9);
     top: 25%;
     left: 40%;
     animation: float9 21s infinite linear;
+    box-shadow: 0 0 2px rgba(0, 83, 155, 0.5);
 }
 
 .particle:nth-child(10) {
-    width: 4px;
-    height: 4px;
-    background: rgba(51, 152, 152, 0.3);
+    width: 7px;
+    height: 7px;
+    background: rgba(51, 152, 152, 0.7);
     top: 75%;
     left: 30%;
     animation: float10 16s infinite linear;
+    box-shadow: 0 0 3px rgba(51, 152, 152, 0.4);
 }
 
 .particle:nth-child(11) {
-    width: 3px;
-    height: 3px;
-    background: rgba(232, 153, 35, 0.7);
+    width: 6px;
+    height: 6px;
+    background: rgba(232, 153, 35, 0.8);
     top: 15%;
     left: 75%;
     animation: float11 18s infinite linear;
+    box-shadow: 0 0 3px rgba(232, 153, 35, 0.4);
 }
 
 .particle:nth-child(12) {
-    width: 2px;
-    height: 2px;
-    background: rgba(0, 83, 155, 0.4);
+    width: 5px;
+    height: 5px;
+    background: rgba(0, 83, 155, 0.8);
     top: 85%;
     left: 45%;
     animation: float12 20s infinite linear;
+    box-shadow: 0 0 2px rgba(0, 83, 155, 0.4);
 }
 
 @keyframes float1 {
