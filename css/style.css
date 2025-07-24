@@ -932,6 +932,10 @@ footer a:hover {
         margin: 2rem 0;
         padding-bottom: 56.25%; /* Full width 16:9 on mobile */
     }
+    
+    .nav-logo img {
+        display: none;
+    }
 }
 
 /* Keyframes for additional particles */
