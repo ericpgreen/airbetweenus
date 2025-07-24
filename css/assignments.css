@@ -1,0 +1,232 @@
+/* Assignments Page Specific Styles */
+
+/* Grading Overview */
+.grading-overview {
+    background: var(--limestone);
+    padding: 3rem 0;
+    margin-bottom: 3rem;
+}
+
+.grade-breakdown {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.grade-item {
+    background: var(--white);
+    padding: 2rem;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: var(--air-shadow);
+    transition: transform 0.3s ease;
+}
+
+.grade-item:hover {
+    transform: translateY(-4px);
+}
+
+.grade-percentage {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: var(--persimmon);
+    font-family: 'Spectral', Georgia, serif;
+}
+
+.grade-label {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: var(--duke-navy);
+    margin: 0.5rem 0;
+}
+
+.grade-note {
+    font-size: 0.875rem;
+    color: var(--graphite);
+}
+
+/* Final Project Section */
+.final-project {
+    padding-top: 0;
+}
+
+.project-intro {
+    background: var(--air-gradient-1);
+    padding: 2rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+
+.project-intro p:last-child {
+    margin-bottom: 0;
+}
+
+/* Format Options */
+.format-options {
+    display: grid;
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.format-card {
+    background: var(--white);
+    padding: 2rem;
+    border-radius: 8px;
+    border-left: 4px solid var(--eno);
+    box-shadow: var(--air-shadow);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.format-card:hover {
+    transform: translateX(4px);
+    box-shadow: 0 8px 30px rgba(0, 26, 87, 0.12);
+}
+
+.format-card h4 {
+    color: var(--duke-royal);
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.25rem;
+}
+
+.format-card p {
+    margin: 0;
+    line-height: 1.6;
+}
+
+/* Important Note */
+.important-note {
+    background: var(--dandelion);
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin: 2rem 0;
+}
+
+.important-note p {
+    margin: 0;
+    color: var(--duke-navy);
+}
+
+/* Rubric Table */
+.rubric-table {
+    margin-top: 2rem;
+    overflow-x: auto;
+}
+
+.rubric-table table {
+    width: 100%;
+    background: var(--white);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: var(--air-shadow);
+}
+
+.rubric-table th {
+    background: var(--duke-navy);
+    color: var(--white);
+    padding: 1rem;
+    text-align: left;
+    font-weight: 600;
+}
+
+.rubric-table td {
+    padding: 1rem;
+    border-bottom: 1px solid var(--limestone);
+    vertical-align: top;
+}
+
+.rubric-table tr:last-child td {
+    border-bottom: none;
+}
+
+.rubric-table tr:hover {
+    background: rgba(229, 229, 229, 0.3);
+}
+
+.rubric-table ul {
+    margin: 0;
+    padding-left: 1.5rem;
+}
+
+.rubric-table ul li {
+    margin-bottom: 0.5rem;
+}
+
+.rubric-table ul li:last-child {
+    margin-bottom: 0;
+}
+
+/* Other Assignments */
+.other-assignments {
+    background: var(--air-gradient-2);
+    padding: 3rem 0;
+    margin-top: 4rem;
+}
+
+.assignment-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.assignment-card {
+    background: var(--white);
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: var(--air-shadow);
+}
+
+.assignment-card h3 {
+    color: var(--duke-royal);
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.assignment-card p {
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.assignment-note {
+    font-size: 0.875rem;
+    color: var(--graphite);
+    font-style: italic;
+    background: var(--limestone);
+    padding: 0.75rem 1rem;
+    border-radius: 4px;
+    margin-bottom: 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .grade-breakdown {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 1rem;
+    }
+    
+    .grade-item {
+        padding: 1.5rem 1rem;
+    }
+    
+    .grade-percentage {
+        font-size: 2rem;
+    }
+    
+    .format-card,
+    .assignment-card {
+        padding: 1.5rem;
+    }
+    
+    .rubric-table {
+        font-size: 0.875rem;
+    }
+    
+    .rubric-table th,
+    .rubric-table td {
+        padding: 0.75rem;
+    }
+}

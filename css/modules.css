@@ -1,0 +1,159 @@
+/* Modules Page Specific Styles */
+
+.page-header {
+    background: var(--air-gradient-1);
+    padding: 3rem 0;
+    margin-bottom: 2rem;
+}
+
+.page-header h1 {
+    margin-bottom: 1rem;
+}
+
+/* Module Format Section */
+.module-format {
+    background-color: var(--limestone);
+    margin-bottom: 3rem;
+}
+
+.format-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.format-card {
+    background: var(--white);
+    padding: 1.5rem;
+    border-radius: 8px;
+    border-left: 3px solid var(--eno);
+}
+
+.format-card h3 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.25rem;
+    color: var(--duke-royal);
+    margin-top: 0;
+    margin-bottom: 0.75rem;
+}
+
+.format-card p {
+    margin: 0;
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+/* Modules List */
+.modules-list {
+    padding-top: 0;
+}
+
+.module-card {
+    background: var(--white);
+    border-radius: 12px;
+    padding: 2.5rem;
+    margin-bottom: 2rem;
+    box-shadow: var(--air-shadow);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.module-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: var(--persimmon);
+}
+
+.module-card:nth-child(2)::before {
+    background: var(--duke-royal);
+}
+
+.module-card:nth-child(3)::before {
+    background: var(--eno);
+}
+
+.module-card:nth-child(4)::before {
+    background: var(--dandelion);
+}
+
+.module-card:nth-child(5)::before {
+    background: var(--persimmon);
+}
+
+.module-card:nth-child(6)::before {
+    background: var(--duke-royal);
+}
+
+.module-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 30px rgba(0, 26, 87, 0.12);
+}
+
+.module-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 0.5rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.module-header h2 {
+    margin: 0;
+    color: var(--duke-navy);
+}
+
+.module-timing {
+    font-size: 0.95rem;
+    color: var(--graphite);
+    font-weight: 500;
+}
+
+.module-tagline {
+    font-style: italic;
+    color: var(--eno);
+    font-size: 1.125rem;
+    margin-bottom: 1.5rem;
+    font-family: 'Spectral', Georgia, serif;
+}
+
+.module-details {
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--limestone);
+    display: grid;
+    gap: 1rem;
+}
+
+.detail-item {
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+.detail-item strong {
+    color: var(--duke-royal);
+    display: inline-block;
+    margin-right: 0.5rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .module-card {
+        padding: 2rem 1.5rem;
+    }
+    
+    .format-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .module-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}

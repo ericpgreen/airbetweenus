@@ -1,0 +1,202 @@
+/* Schedule Page Specific Styles */
+
+.schedule-section {
+    padding-top: 0;
+}
+
+.schedule-table-container {
+    overflow-x: auto;
+    margin-bottom: 3rem;
+    background: var(--white);
+    border-radius: 12px;
+    box-shadow: var(--air-shadow);
+}
+
+.schedule-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.95rem;
+}
+
+.schedule-table thead {
+    background: var(--duke-navy);
+    color: var(--white);
+}
+
+.schedule-table th {
+    padding: 1.25rem 1rem;
+    text-align: left;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    font-size: 0.875rem;
+}
+
+.schedule-table tbody tr {
+    transition: background-color 0.2s ease;
+}
+
+.schedule-table tbody tr:hover {
+    background-color: rgba(229, 229, 229, 0.3);
+}
+
+.schedule-table td {
+    padding: 1rem;
+    border-bottom: 1px solid var(--limestone);
+}
+
+.week-start td {
+    border-top: 2px solid var(--granite);
+}
+
+.week-number {
+    font-weight: 600;
+    text-align: center;
+    background: var(--limestone);
+    color: var(--duke-navy);
+}
+
+/* Module color coding */
+.module-intro {
+    background-color: var(--graphite);
+    color: var(--white);
+    text-align: center;
+    font-weight: 600;
+    border-radius: 4px;
+    padding: 0.25rem 0.5rem;
+}
+
+.module-1 {
+    background-color: rgba(232, 153, 35, 0.2);
+    text-align: center;
+    font-weight: 600;
+    border-radius: 4px;
+    padding: 0.25rem 0.5rem;
+}
+
+.module-2 {
+    background-color: rgba(0, 83, 155, 0.2);
+    text-align: center;
+    font-weight: 600;
+    border-radius: 4px;
+    padding: 0.25rem 0.5rem;
+}
+
+.module-3 {
+    background-color: rgba(51, 152, 152, 0.2);
+    text-align: center;
+    font-weight: 600;
+    border-radius: 4px;
+    padding: 0.25rem 0.5rem;
+}
+
+.module-4 {
+    background-color: rgba(255, 217, 96, 0.3);
+    text-align: center;
+    font-weight: 600;
+    border-radius: 4px;
+    padding: 0.25rem 0.5rem;
+}
+
+.module-5 {
+    background-color: rgba(232, 153, 35, 0.15);
+    text-align: center;
+    font-weight: 600;
+    border-radius: 4px;
+    padding: 0.25rem 0.5rem;
+}
+
+.module-6 {
+    background-color: rgba(0, 83, 155, 0.15);
+    text-align: center;
+    font-weight: 600;
+    border-radius: 4px;
+    padding: 0.25rem 0.5rem;
+}
+
+/* Special session types */
+.guest-lecture {
+    font-weight: 600;
+    color: var(--duke-royal);
+}
+
+.application {
+    font-weight: 600;
+    color: var(--eno);
+}
+
+/* Legend */
+.schedule-legend {
+    background: var(--limestone);
+    padding: 2rem;
+    border-radius: 12px;
+}
+
+.schedule-legend h3 {
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    color: var(--duke-navy);
+}
+
+.legend-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.legend-color {
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.legend-color.module-1 {
+    background-color: rgba(232, 153, 35, 0.5);
+}
+
+.legend-color.module-2 {
+    background-color: rgba(0, 83, 155, 0.5);
+}
+
+.legend-color.module-3 {
+    background-color: rgba(51, 152, 152, 0.5);
+}
+
+.legend-color.module-4 {
+    background-color: rgba(255, 217, 96, 0.7);
+}
+
+.legend-color.module-5 {
+    background-color: rgba(232, 153, 35, 0.3);
+}
+
+.legend-color.module-6 {
+    background-color: rgba(0, 83, 155, 0.3);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .schedule-table {
+        font-size: 0.875rem;
+    }
+    
+    .schedule-table th,
+    .schedule-table td {
+        padding: 0.75rem 0.5rem;
+    }
+    
+    .schedule-table th {
+        font-size: 0.75rem;
+    }
+    
+    .legend-grid {
+        grid-template-columns: 1fr;
+    }
+}
