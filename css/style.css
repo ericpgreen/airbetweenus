@@ -658,16 +658,16 @@ h3 {
         text-shadow: 0 2px 4px rgba(0, 26, 87, 0.1);
     }
     25% {
-        transform: translateX(2px) translateY(-1px) scale(1.005);
-        text-shadow: 2px 3px 6px rgba(0, 26, 87, 0.15);
+        transform: translateX(8px) translateY(-4px) scale(1.02);
+        text-shadow: 4px 6px 12px rgba(0, 26, 87, 0.25);
     }
     50% {
-        transform: translateX(-1px) translateY(1px) scale(1.01);
-        text-shadow: -1px 4px 8px rgba(0, 26, 87, 0.2);
+        transform: translateX(-6px) translateY(5px) scale(1.03);
+        text-shadow: -3px 8px 15px rgba(0, 26, 87, 0.3);
     }
     75% {
-        transform: translateX(1px) translateY(-0.5px) scale(1.005);
-        text-shadow: 1px 2px 5px rgba(0, 26, 87, 0.15);
+        transform: translateX(4px) translateY(-2px) scale(1.015);
+        text-shadow: 2px 4px 10px rgba(0, 26, 87, 0.2);
     }
 }
 
